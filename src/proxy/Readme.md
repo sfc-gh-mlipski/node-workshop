@@ -1,4 +1,4 @@
-## Timestamped logs
+## 1. Timestamped logs
 
 Create a proxy for the `console` object that enhances every logging function (`log`, `error`, `debug`, `info`)
 by prepending the current timestamp to the message you want to print in logs.
@@ -8,6 +8,6 @@ For instance, executing
 should print something like `2023-01-18T15:00:00.777Z Hello`
 
 
-### Additional requirements
+### 2. Colored logs
 
-Display `logs` in green, `error` in red color.
+Create a decorator object for console with new methods `green` that displays output in green, `red` that displays output  in red color.
