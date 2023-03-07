@@ -7,7 +7,3 @@ For instance, executing
 `consoleProxy.log('Hello') `
 should print something like `2023-01-18T15:00:00.777Z Hello`
 
-
-### 2. Colored logs
-
-Create a decorator object for console with new methods `green` that displays output in green, `red` that displays output  in red color.
