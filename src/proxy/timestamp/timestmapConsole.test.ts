@@ -10,7 +10,7 @@ const spy = jest.spyOn(console, 'log');
 describe('console', () => {
   it('log should prepend date', () => {
     const res = timestampConsole.log('Hello');
-    expect(spy).toBeCalledWith(`${now} Hello`);
+    expect(spy).toBeCalledWith(now, `Hello`);
   });
   // it('info should prepend date', () => {
   //   const res = timestampConsole.info('Hello');
