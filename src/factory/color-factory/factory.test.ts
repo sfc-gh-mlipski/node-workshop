@@ -1,7 +1,7 @@
 import { foo } from './factory';
 
-describe('this', () => {
+describe('', () => {
   it('should work', () => {
-    expect(foo()).toEqual('bar')
+    expect(foo()).toEqual('bar');
   });
 });
