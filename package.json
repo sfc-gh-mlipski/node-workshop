@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "build": "tsc --build",
-    "test": "jest"
+    "test": "jest",
+    "stream-exercise": "ts-node --esm 'src/stream/stream.ts'"
   },
   "keywords": [],
   "author": "",
